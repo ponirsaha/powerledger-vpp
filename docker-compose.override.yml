@@ -1,0 +1,6 @@
+services:
+  vpp-app:
+    depends_on:
+      - postgres
+      - elasticsearch
+      - logstash
